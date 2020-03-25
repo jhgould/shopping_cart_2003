@@ -20,18 +20,22 @@ class ShoppingCart
   end
 
   def total_number_of_products
-    @products[0].quantity
+    total = 0
+    @products.each do |i|
+    total += i.quantity
+    end
+    total
   end
 
   def is_full?
-
-    if @products[0].quantity >= 30
-      true
-    else
-      false
-    end
-  end
-
+    binding.pry
+  #   if @products[0].quantity >= 30
+  #     true
+  #   else
+  #     false
+  #   end
+  # end
+end
 
 
 end
