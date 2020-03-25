@@ -28,14 +28,13 @@ class ShoppingCart
   end
 
   def is_full?
-    binding.pry
-  #   if @products[0].quantity >= 30
-  #     true
-  #   else
-  #     false
-  #   end
-  # end
-end
+    if total_number_of_products >= 30
+      true
+    else
+      false
+    end
+
+  end
 
 
 end
