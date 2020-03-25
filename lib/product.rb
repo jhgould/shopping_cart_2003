@@ -33,5 +33,5 @@ class Product
   end
 
 
-end
+  end
 end
