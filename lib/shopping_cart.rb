@@ -23,5 +23,15 @@ class ShoppingCart
     @products[0].quantity
   end
 
+  def is_full?
+
+    if @products[0].quantity >= 30
+      true
+    else
+      false
+    end
+  end
+
+
 
 end
