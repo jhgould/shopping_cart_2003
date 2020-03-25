@@ -20,8 +20,7 @@ class ShoppingCart
   end
 
   def total_number_of_products
-    binding.pry
-    @products.quantity
+      @products[0].quantity
   end
 
 end
