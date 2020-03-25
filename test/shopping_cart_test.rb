@@ -27,8 +27,9 @@ class ShoppingCartTest < Minitest::Test
   end
 
   def test_it_has_total_number_of_products
-    
+
     product1 = Product.new(:paper, 'toilet paper', 3.70, '10')
+    
     cart = ShoppingCart.new("King Soopers", "30items")
     cart.add_product(product1)
 

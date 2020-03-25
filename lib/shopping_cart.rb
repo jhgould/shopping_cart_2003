@@ -20,7 +20,8 @@ class ShoppingCart
   end
 
   def total_number_of_products
-      @products[0].quantity
+    @products[0].quantity
   end
+
 
 end
